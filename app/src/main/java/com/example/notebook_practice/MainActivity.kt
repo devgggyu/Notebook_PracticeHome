@@ -12,7 +12,35 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        문법 연습(문법)
+//        문법 연습(조건문)
+
+//        나이를 확인해서 -> 성인인지  /  아닌지
+        val userage = 14
+
+        if (userage >= 20) {
+
+        Log.d("성인판별","성인이 맞습니다.")
+
+        }
+
+        else if (userage >= 17) {
+          Log.d("성인판별","고등학생 입니다.")
+        }
+
+        else if (userage >= 14) {
+            Log.d("성인판별","중학생 입니다.")
+        }
+
+        else {
+            Log.d("성인판별","성인이 아닙니다.")
+        }
+
+
+
+
+
+
+//       문법 연습(변수)
         var myname = "강대규"// 변수 생성 + 대입=> 변수의 초기화
 
         myname = "Kdg"
